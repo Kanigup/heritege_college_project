@@ -21,7 +21,4 @@ pipeline {
                 bat script: '''
                     xcopy /s /e /y "C:\\Users\\kg191\\Desktop\\haritage\\heritege_college_project" "C:\\Apache24\\htdocs"
                 '''
-            }
-        }
-    }
-}
+            }}}}
