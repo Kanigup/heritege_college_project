@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DELHI</title>
+    <style>
+         body {
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-attachment: fixed;
+        }
+
+        .navi,
+        a {
+            font-size: x-large;
+            padding: 20px;
+            margin: 20px;
+            text-decoration: none;
+        }
+
+        .navi {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50));
+
+            margin: -5px -5px;
+
+        }
+
+        .data {
+            background-color: rgba(183, 217, 228, 0.329);
+            border-radius: 20px;
+        }
+        form{
+            font-size: 1.22em;
+        }
+
+        a:link {
+            text-decoration: none;
+            color: black;
+        }
+
+        nav a:visited {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+
+<body style="background-image: url(https://www.makemytrip.com/travel-guide/media/dg_image/delhi/Nehru-park-Delhi.jpg);">
+    <center>
+        <header><img src="delhi-india.jpg" height="250px"></header>
+     </center>   
+    <nav class="navi" style="height: 30%;">
+        <a style="color: white;" href="task12home.html">Home</a>
+        <a style="color: white;" href="task12heritage.html">Heritage</a>
+        <a style="color: white;" href="task12history.html">History</a>
+        <a style="color: white;" href="task12hotelbooking.html">Hotel Booking</a>
+        <a style="color: white;" href="task12gallery.html">Gallery</a>
+    </nav>
+    <br>
+    <div class="data">
+    <center>
+        <h1 style="color: rgb(6, 20, 146);font-size: 1cm;"><b><i>Hotel Booking</i></b></h1>
+    </center>
+
+    <form action="#">
+        <h1>Booking Detail</h1>
+    <hr>
+        <table width="80%">
+    
+            <tr>
+                <td><label for="City">City</label></td>
+                <td><select id="City"><option>Select</option>
+                    <option>Chandni Chowk</option><option>East Delhi</option><option>New Delhi</option>
+                    <option>South Delhi</option><option>West Delhi</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="Hotel">Hotel</label></td>
+                <td><select id="Hotel"><option>Select</option>
+                    <option>Hotel A</option><option>Hotel B</option><option>Hotel C</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="Bedroom">Bedroom</label></td>
+                <td><select id="Bedroom"><option>Select</option>
+                    <option>Single-Bed AC</option><option>Single-Bed Non-AC</option>
+                    <option>Double-Bed AC</option><option>Double-Bed Non-AC</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="Check-in Date">Check-in</label></td>
+                <td><input type="date" id="Check-in Date">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Check-out Date">Check-out</label></td>
+                <td><input type="date" id="Check-out Date">
+                </td>
+            </tr>
+            </table>
+                <br>
+    
+    <h1>Personal Detail</h1>
+    <hr>
+    <br>
+    <table width="80%">
+        <tr>
+                <td><label for="Name">Full Name</label></td>
+                <td>
+                    <input type="text" id="Name" placeholder="Enter Full Name">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="F.Name">Father's Name</label></td>
+                <td>
+                    <input type="text" id="F.Name" placeholder="Enter Full Name">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Gender">Gender</label></td>
+                <td><input type="radio" name="gender" value="Male"><label>Male</label>
+                <input type="radio" name="gender" value="Female"><label>Female</label>
+                <input type="radio" name="gender" value="other"><label>Other</label></td>
+            </tr>
+        </tr>
+        <tr>
+            <td><label for="Member">Member</label></td>
+            <td>
+                <input type="number" maxlength="10" id="Member" placeholder="Digit" size="10">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="M.No.">Mobile Number</label></td>
+            <td>
+                <input type="number" maxlength="10" id="M.No." placeholder="Number" size="10">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td>
+                <input type="email" id="email" placeholder="sample@abc.com">
+            </td>
+        </tr>
+            <tr>
+                <td>
+                    <center>
+                        <button type="reset">Reset</button>
+                    </center>
+                </td>
+                <td>
+                    <center>
+                        <button type="submit">Submit</button>
+                    </center>
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+
+    </div>
+
+</body>
+
+</html>
